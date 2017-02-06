@@ -1,0 +1,6 @@
+TODO
+* make buttons pretty/aligned
+* fix slideshow
+* put correct photographs in place
+* make reviews prettier
+* remove space around header ****HELP****
