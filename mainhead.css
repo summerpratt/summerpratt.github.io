@@ -1,0 +1,55 @@
+body,html {
+	height: 100%;
+	width: 100%;
+}
+
+.introhead {
+    background: url('main.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+	font-size: 15px;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.overlay {
+	background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+    opacity: 0.5;
+    z-index: 0;
+
+}
+
+.gold-strip {
+	background: url('gold.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+
+}
+
